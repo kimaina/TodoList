@@ -31,7 +31,7 @@ angular
 
 
       })
-      .when('/todoDetails', {
+      .when('/todoDetails/:name/:status', {
         templateUrl: 'views/tododetails.html',
         controller: 'TododetailsCtrl'
 

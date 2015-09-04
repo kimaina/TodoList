@@ -1,1 +1,7 @@
-<p>This is the todoDetails view.</p>
+<div class="jumbotron">
+<p>{{todoItem.name}} Task is  {{todoItem.status}}% complete.</p>
+
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow=" {{todoItem.status}}" aria-valuemin="0" aria-valuemax="100" style="width:  {{todoItem.status}}%"><span class="sr-only"> {{todoItem.status}}% Complete</span></div>
+  </div>
+  </div>

@@ -10,12 +10,17 @@
 (function() {
 angular.module('todoListApp')
   .controller('TodoCtrl', ['$scope','todoFactory', function ($scope, todoFactory) {
+
+    init ();
+
+
     function init ()
     {
-      $scope.todoItems=todoFactory.getTodoList();
+      var todoItems=todoFactory.getTodoList();
+      $scope.todoItems=todoItems;
+      $scope.completedItems=todoItems.length;
+
     }
-    init ();
-    $scope.completedItems =39;
 
   }]);
 }());
