@@ -10,7 +10,6 @@
 angular.module('todoListApp')
   .directive('filterControl', function () {
     return {
-
       restrict: 'EA',
       scope:false,
       templateUrl: 'views/filtercontrol.html'

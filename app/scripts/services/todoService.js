@@ -16,8 +16,8 @@ angular.module('todoListApp')
       { name: 'Orientation', description: 'Ampath Orientation bla bla..', status:70  },
       { name: 'Development', description: 'Setting up IDE and Environmentbla bla...', status:50 },
       { name: 'Network', description: 'Network config and deploymentbla bla...', status:10 },
-      { name: 'Network', description: 'Network config and deploymentbla bla...', status:30 },
-      { name: 'Network', description: 'Network config and deploymentbla bla...', status:90 }
+      { name: 'Deployment', description: 'Network config and deploymentbla bla...', status:30 },
+      { name: 'Foo', description: 'Network config and deploymentbla bla...', status:90 }
 
     ];
     this.getTodoList = function () {
